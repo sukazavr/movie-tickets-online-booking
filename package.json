@@ -1,0 +1,30 @@
+{
+  "name": "movie-tickets-online-booking",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "parcel src/index.html --open --no-hmr",
+    "build": "parcel build src/index.html -d public"
+  },
+  "dependencies": {
+    "@cycle/run": "^4.1.0",
+    "@manaflair/redux-batch": "^0.1.0",
+    "autoprefixer": "^8.4.1",
+    "classcat": "^3.1.0",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-flexview": "^3.0.1",
+    "react-tippy": "^1.2.2",
+    "redux": "^3.7.2",
+    "redux-cycles": "^0.4.1",
+    "redux-devtools-extension": "^2.13.2",
+    "sanitize.css": "^5.0.0",
+    "unchanged": "^1.2.1",
+    "xstream": "^11.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-bundle-visualiser": "^1.1.1"
+  }
+}

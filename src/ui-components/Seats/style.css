@@ -1,0 +1,22 @@
+.seats {
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-auto-columns: 1fr;
+	grid-gap: 4px;
+}
+
+.seat {
+	padding-bottom: 100%;
+	background: #badcff;
+	border-radius: 5%;
+	cursor: pointer;
+}
+
+.booked {
+	background: #fce2fa;
+	cursor: default;
+}
+
+.selected {
+	background: #ff8d16;
+}
